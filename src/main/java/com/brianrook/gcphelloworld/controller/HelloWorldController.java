@@ -9,18 +9,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/hello")
 public class HelloWorldController
 {
 
    @Autowired
-         @Qualifier("username")
+   @Qualifier("username")
    HelloWorldService helloWorldService;
 
    @Autowired
    @Qualifier("default")
    HelloWorldService defaultHelloWorldService;
 
-   @RequestMapping("/hello")
+   @RequestMapping("/")
    public String helloWorld(@RequestParam(name = "userName") String userName)
    {
       if (HelloWorldToggles.HELLO_WORLD_USERNAME.isActive())
