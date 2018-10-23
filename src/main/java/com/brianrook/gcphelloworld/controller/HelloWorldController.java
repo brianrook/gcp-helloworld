@@ -19,12 +19,9 @@ public class HelloWorldController
 {
 
    @Autowired
-   @Qualifier("username")
+   @Qualifier("test")
    HelloWorldService helloWorldService;
 
-   @Autowired
-   @Qualifier("default")
-   HelloWorldService defaultHelloWorldService;
 
    @GetMapping("/")
    @ApiOperation(value = "Gives Hello World Response",
@@ -37,13 +34,8 @@ public class HelloWorldController
          @ApiParam(value="the username to say hello to")
                @RequestParam(name = "userName", required = false) String userName)
    {
-      if (HelloWorldToggles.HELLO_WORLD_USERNAME.isActive())
-      {
-         return helloWorldService.helloWorld(userName);
-      }
-      else
-      {
-         return defaultHelloWorldService.helloWorld(null);
-      }
+
+      return helloWorldService.helloWorld(userName);
+      
    }
 }
