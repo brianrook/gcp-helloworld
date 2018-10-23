@@ -54,7 +54,7 @@ class HelloWorldTestServiceTest extends Specification {
         when: 'the service is called'
         def response = svc.helloWorld(username)
 
-        then: 'we should expect that the HelloUserNameService was called'
+        then: 'we should expect that the HelloDefaultService was called'
         0 * userService.helloWorld(username)
         1 * defaultService.helloWorld(null)
     }
