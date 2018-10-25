@@ -5,8 +5,6 @@ import org.junit.Rule
 import org.togglz.junit.TogglzRule
 import spock.lang.Specification
 
-import static com.brianrook.gcphelloworld.configuration.HelloWorldToggles.HELLO_WORLD_USERNAME
-
 class HelloWorldTestServiceTest extends Specification {
 
     //Class to be tested
