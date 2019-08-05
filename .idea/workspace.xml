@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f01771fb-6cb3-4fdf-b713-957abfcbd348" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gcp-helloworld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gcp-helloworld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brianrook/gcphelloworld/configuration/HelloWorldSpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brianrook/gcphelloworld/configuration/HelloWorldSpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brianrook/gcphelloworld/service/impl/HelloDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brianrook/gcphelloworld/service/impl/HelloDefaultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="f01771fb-6cb3-4fdf-b713-957abfcbd348" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
