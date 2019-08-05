@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: helloworld
+server:
+  servlet:
+    contextPath: /helloworld
+
+togglz:
+  console:
+    enabled: true
+    path: /toggles
+    secured: false
+    use-management-port: false
+  features:
+    HELLO_WORLD_USERNAME:
+      enabled: true
+
+
+---
+spring:
+  profiles: dev
+togglz:
+  features:
+    HELLO_WORLD_USERNAME:
+      enabled: false

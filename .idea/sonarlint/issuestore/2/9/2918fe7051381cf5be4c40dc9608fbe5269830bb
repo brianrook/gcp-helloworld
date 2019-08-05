@@ -1,0 +1,4 @@
+
+msquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(õýÍ»øÿÿÿÿ
+Wsquid:S1854"BRemove this useless assignment to local variable "responseString".(øØ“Ô
+5squid:S2129" Remove this "String" constructor(øØ“Ô
